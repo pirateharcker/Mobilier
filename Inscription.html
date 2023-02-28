@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Inscription</title>
+</head>
+<body>
+   <div class="container-fluid">
+    <div class="barre">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: darkslategray;">
+            <a class="navbar-brand" href="#">
+                <i class="bi-bag-check-fill" style="font-size: 2rem; color: rgb(1, 6, 15);"></i>
+                AGENCE-ALY
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="Accueil.html">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Maison.html">Maison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Appartement.html">Appartement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Immeuble.html">Immeuble</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Terrain.html">Terrain</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Inscription.html">Contactez-nous</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Accueil.html"><strong>A Propos</strong></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="bi-cart-fill" style="font-size: 1.5rem; color: black;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="bi-search" style="font-size: 1.5rem; color: black;"></i>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="form">
+        <div class="container">
+            <div class="bord">
+              <div class="Daly">
+                <marquee behavior="" direction="" style="color: green;"><h2><em>Bienvenue dans l'AGENCE-ALY! Veillez nous laisser votre message</em></h2>
+                </marquee>
+               <form action="Mobile.php" method="POST">
+                <div class="row g-3">
+                    <div class="col">
+                      <label for="inputText" class="form-label"><strong>Nom</strong></label>
+                      <input type="text" class="form-control" id="nom" aria-label="First name" name="nom">
+                      <h5 id="errnom"></h5>
+                    </div>
+                    <div class="col">
+                      <label for="inputText" class="form-label"><strong>Prenom</strong></label>
+                      <input type="text" class="form-control" id="Prenom" aria-label="Last name" name="prenom">
+                      <h5 id="errprenom"></h5>
+                    </div>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-md-8">
+                      <label for="inputEmail4" class="form-label"><strong>Email</strong></label>
+                      <input type="email" class="form-control" id="email" name="email" >
+                      <h4 id=" erremail"></h4>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputtel" class="form-label"><strong>Tel</strong></label>
+                      <input type="text" class="form-control" id="inputPassword4" name="tel">
+                      <h4 id="errtel"></h4>
+                    </div>
+                      <div class="col">
+                        <label for="inputtel" class="form-label"><strong>Message</strong></label>
+                        <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="col-12 hard">
+                      <button type="submit" class="btn btn-primary" name="inscrire"><em><strong>Envoyer</strong></em></button>
+                    </div>
+                  </div>
+               </form>
+              </div>
+          </div>
+          </div>
+    </div>
+         <footer>
+            <div class="footer">
+              <div class="row">
+                <div class="col-lg-3">
+                  <h2><em>A DECOUVRIR</em></h2>
+                  <ul style="color:white ;">
+                    <li>Annuaire des professionnels</li>
+                    <li>Tout l'immobilier</li>
+                    <li>Toutes les villes</li>
+                    <li>Tous les départements</li>
+                    <li>Toutes les régions</li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h2><em>SERVICES PRO</em></h2>
+                  <ul style="color:white ;">
+                    <li>Tous nos services pro</li>
+                    <li>Accés client</li>
+                    <li>Nos annonces sur se loger</li>
+                    <li>Les attributs</li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h2><em>RESERVER</em></h2>
+                  <ul style="color:white ;">
+                    <li>Nos meilleurs maisons</li>
+                    <li>Nos types de logements</li>
+                    <li>Nos appartements</li>
+                    <li>Nos chambres</li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h2><em>Contactez-nous</em></h2>
+                  <ul style="color:white ;">
+                    <li>Tel:</li>
+                    <li>+229 60074595</li>
+                    <li>+229 51093520</li>
+                    <li>liamngarri@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+   </div>
+    <script src="assets/Js/jquery-3.6.0.js"></script>
+    <script src="assets/Js/bootstrap.js"></script>
+    <script src="assets/Js/bootstrap.bundle.js"></script>
+    <script src="assets/Js/index.js"></script>
+</body>
+</html>
